@@ -1,0 +1,17 @@
+GenerateWebsite class -> Main method
+
+ - Compiles the methods used in the other class and generated the final website
+
+Info Class -> UserInput(), createWeb()
+
+ - UserInput() method acts as the function that gathers all the information from the user regarding the specifications
+   for creating the personal website
+   Boolean values will be implemented for the CSS and JS scanners so that it will help with deciding whether or not to
+   create those files for the website.
+
+ - createWeb() method creates a new file and then adds that file to the directory using the command .mkdirs
+   It then adds an index.html, css, and js file to the website directory based on the specifications collected from
+   the UserInput() method
+   Boolean values are once again used for all the files to make sure that the files ar actually created in the register.
+   If the .createNeFile() command returns false, that means the respective file was not created and the output message
+   will not print to console

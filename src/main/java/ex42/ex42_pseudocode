@@ -1,0 +1,19 @@
+ParseDta Class -> Main method
+
+ - Contains main function that initializes the input file and passes this on to the other functions
+
+Scan2 Class -> ScanPeople(), toString()
+
+ - ScanPeople() function will take in the input file as a parameter and scan in the contents from the file
+   Create an arraylist that stores the info
+   As before, it will split the list using the comma as a way to interpret the last and first names
+
+ - toString() method will be used to format the contents into the specified format as described by the directions
+   It will return the final string
+
+Sort2 Class-> ScanIn(), output()
+
+ - ScanIn() function will be used to once again scan in the entire input file by using a while loop.
+   An arraylist will be created to store the names and salaries
+
+ - Output() method will print out the results in the specified format to the console log

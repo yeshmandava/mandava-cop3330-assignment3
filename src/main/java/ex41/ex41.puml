@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Scan
+{
+-String lastN
+-String firstN
++void ScanPeople()
++LastName()
++FirstName()
+}
+
+class Sort
+{
+Scan: Sort
+
++void ScanIn()
++void Sort()
++String output()
+}
+
+Sort->Scan
+
+@enduml

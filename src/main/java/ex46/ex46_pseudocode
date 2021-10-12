@@ -1,0 +1,22 @@
+FrequencyFinder class ->Main method
+
+ - Main migrates all other classes to the main method
+   Then it will use various function from those classes to find the frequency of a certain word, sort it based on the
+   number of occurrences and print it all to the console.
+
+Construct class -> Word class, findQuantity(), totalNum(), addWord(), printNum()
+
+ - A class is created which will contain the string word and an int freq. Additionally, a comparator function will be
+   used to compare the words from the input file. The .compare command will be used to track frequency.
+
+ - findQuantity() method will first declare an arraylist and then it will initialize and scan in from the input file.
+   Within the method we will implement another method called totalNum() that will loop through and track the frequency
+   of the words from the in file
+   Within the totalNum() method we will use another method called addWord() that will basically add words to the
+   arrayList if the word is new from the previously tracked words.
+
+ - printNum() method will act as a formatter for the file and specify the results based on requirements.
+   It will return the final histogram to console.
+
+
+

@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+class Construct
+{
+static class Word()
++String word()
++int frequency()
+-Arraylist List()
+
++void findQuantity()
+-void totalNum()
+-void addWord()
++void printNum()
++void Sort()
+
+}
+
+@enduml

@@ -1,0 +1,12 @@
+WordReplace class -> Main method
+
+ - Main will migrate the other class and also initialize the output file
+   Then it will implement a method from the other class that scans in the input file and another method will be used to
+   replace the target string with the desired word
+
+Find class -> ScanIn(), replaceFile()
+
+ - ScanIn() method will scan in the input file line by line using a while loop and .hasNextLine() and .nextLine()
+
+ - replaceFile() method using the .replaceAll command to replace all instances of utilize with use.
+   It then returns the corrected file

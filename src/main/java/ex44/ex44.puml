@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Item
+{
+static class Struct()
+-ArrayList ProductStruct()
++String name()
++double price()
++int quantity()
+
++void ScanProduct()
++boolean RetrieveItem()
+
+}
+
+@enduml

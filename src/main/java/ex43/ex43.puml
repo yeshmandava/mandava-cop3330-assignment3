@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+Class Info
+{
++String Sname
++String auth
++boolean wantJS
++boolean wantCSS
++boolean x,y,z = false
+
++void ScanInfo()
++void CreateWeb()
+}
+
+@enduml
